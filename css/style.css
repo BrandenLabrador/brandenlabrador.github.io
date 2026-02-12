@@ -63,7 +63,7 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-size: 4rem;
+  font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
@@ -178,6 +178,16 @@ textarea {
   line-height: 1.6; }
   @media only screen and (max-width: 37.5em) {
     .text-primary {
+      font-size: 2rem; } }
+
+.text-secondary {
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6; }
+  @media only screen and (max-width: 37.5em) {
+    .text-secondary {
       font-size: 2rem; } }
 
 .d-none {
