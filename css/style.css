@@ -491,6 +491,41 @@ textarea {
       .contact__btn {
         width: 100%; } }
 
+.prj-heading-primary {
+ font-size: 5rem;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ text-align: center; }
+ @media only screen and (max-width: 37.5em) {
+   .heading-primary {
+     font-size: 4.5rem; } }
+.prj-text-primary {
+ color: #fff;
+ font-size: 2.2rem;
+ text-align: center;
+ width: 100%;
+ line-height: 1.6; }
+ @media only screen and (max-width: 37.5em) {
+   .text-primary {
+     font-size: 2rem; } }
+
+.prj-text-secondary {
+ color: #fff;
+ font-size: 1.6rem;
+ text-align: left;
+ width: 100%;
+ line-height: 1.6; }
+ @media only screen and (max-width: 37.5em) {
+   .prj-text-secondary {
+     font-size: 2rem; } }
+
+.prj-text-primary,
+.prj-text-secondary {
+ margin: 0;
+ line-height: 1.35;}
+.prj-text-primary {
+ margin-bottom: 0.4rem;}
+
 .project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(48, 48, 48, 0.8), rgba(48, 48, 48, 0.8)), url(../../assets/svg/common-bg.svg);
