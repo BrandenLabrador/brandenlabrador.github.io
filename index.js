@@ -6,8 +6,7 @@ const dialog = document.querySelector('[data-dialog]');
 const dialogContent = document.querySelector('[data-dialog-content]');
 
 const savedTheme = localStorage.getItem('portfolio-theme');
-const preferredTheme = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-root.dataset.theme = savedTheme || preferredTheme;
+root.dataset.theme = savedTheme || 'light';
 
 function updateThemeLabel() {
   themeButton.setAttribute('aria-label', `Switch to ${root.dataset.theme === 'dark' ? 'light' : 'dark'} mode`);
